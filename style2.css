@@ -1,0 +1,56 @@
+/* style 2*/
+body {
+  background-color: lightblue;
+  color: black;
+}
+header nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+header nav > ul > li {
+  float: left;
+}
+
+header nav > ul > li > a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header nav > ul > li > a:hover {
+  background-color: #12aad8;
+}
+/* style 1*/
+a {
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
+}
+/* style 3*/
+ul {
+  list-style-type: lower-roman;
+}
+/* style 4*/
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+/* style 5*/
+div {
+  background-color: yellow;
+}
+/* style 6*/
+div {
+  width: 300px;
+  border: 15px solid rgb(0, 113, 128);
+  padding: 50px;
+  margin: 20px;
+}

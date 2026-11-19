@@ -1,0 +1,44 @@
+/* style 5 */
+body {
+  background-color: lightblue;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111111;
+}
+/* style 1*/
+div {
+  width: 50%;
+  background-color:white;
+}
+/* style 2*/
+h1 {
+  font-size: 4em; /* 4 * 16 = 64px */
+}
+/* style 3*/
+h2 {
+  font-size: 2.5em; /* 2.5 * 16 = 40px */
+}
+/* style 4*/
+p {
+  font-size: 3em; /* 3 * 16 = 48px */
+}

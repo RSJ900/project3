@@ -12,7 +12,7 @@ function init() {
 window.addEventListener("load", init);
 const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 41.8335, lng: -87.6255 },
-    zoom: 12,
+    zoom: 15,
 });
 const IIT = new google.maps.Marker({
     position: { lat: 41.8343, lng: -87.6293 },

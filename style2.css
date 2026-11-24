@@ -17,20 +17,25 @@ header nav > ul > li {
 
 header nav > ul > li > a {
   display: block;
-  color: black;
+  color: white;
+  background-color: #333333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 header nav > ul > li > a:hover {
-  background-color: #12aad8;
+  background-color: #111111;
 }
 /* style 1*/
 a {
   color: black;
   background-color: yellow;
   font-weight: bold;
+}
+div,
+div * {
+  color: white;
 }
 /* style 3*/
 ul {
@@ -45,7 +50,7 @@ div {
 }
 /* style 5*/
 div {
-  background-color: yellow;
+  background-color: black;
 }
 /* style 6*/
 div {

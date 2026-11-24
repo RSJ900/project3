@@ -1,5 +1,5 @@
 function init() {
-    var rj = document.getElementById("Question");
+    var rj = document.getElementById("questions");
     if (rj) {
         function question() {
             alert("If you have any questions, please contact me at Rjones44@hawks.illinoistech.edu.");
@@ -7,6 +7,8 @@ function init() {
         rj.addEventListener("click", question);
     }
 }
+/* https://developers.google.com/maps/documentation/javascript/examples/marker-animations#maps_marker_animations-javascript
+*/
 window.addEventListener("load", init);
 const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 41.8335, lng: -87.6255 },
